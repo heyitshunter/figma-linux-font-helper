@@ -8,7 +8,7 @@ get_latest_release() {
 
 get_latest_release_link_download() {
   local latest=$(get_latest_release);
-  echo "http://github.com/ChugunovRoman/figma-linux-font-helper/releases/download/v${latest}/fonthelper.tar.xz"
+  echo "http://github.com/ChugunovRoman/figma-linux-font-helper/releases/download/v0.1.3/fonthelper.tar.xz"
 }
 
 download() {
